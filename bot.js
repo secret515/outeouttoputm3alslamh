@@ -1,3 +1,7 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+
 client.on('guildMemberRemove', Sal => { //By Salto7#4595
   var embed = new Discord.RichEmbed()
   .setAuthor(Sal.user.username, Sal.user.avatarURL)
