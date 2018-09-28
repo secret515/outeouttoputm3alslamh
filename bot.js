@@ -1,5 +1,3 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
 
 
 client.on('guildMemberRemove', Sal => { //By Salto7#4595
@@ -19,3 +17,5 @@ client.on('guildMemberRemove', Sal => { //By Salto7#4595
   if (!channel) return;
   channel.send({embed : embed});
   });
+const Discord = require("discord.js");
+const client = new Discord.Client();
